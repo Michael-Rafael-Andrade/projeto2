@@ -5,7 +5,7 @@ function Navigation() {
     return (
         <nav>
             <ul>
-                <li><NavLink to='/island'>Island</NavLink></li>
+                <li><NavLink to='/islands'>Islands</NavLink></li>
                 <li><NavLink to='archtecture'>Archtecture</NavLink></li>
                 <li><NavLink to='coding'>Coding</NavLink></li>
                 <li><NavLink to='coffe'>Coffe</NavLink></li>
