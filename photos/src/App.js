@@ -5,7 +5,7 @@ import {BrowserRouter, Routes, Route} from 'react-router-dom';
 
 function App() {
   return (
-    <>
+
       <PhotoContextProvider>
         <BrowserRouter>
           <div>
@@ -18,7 +18,7 @@ function App() {
           </div>
         </BrowserRouter>
       </PhotoContextProvider>
-    </>
+      
   );
 }
 
