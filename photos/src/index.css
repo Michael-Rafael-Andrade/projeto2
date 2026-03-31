@@ -41,6 +41,11 @@ ul{
   padding-left: 0;
 }
 
+.is-hideen{
+  border: 0;
+}
+
+
 .search-form{
   max-width: 460px;
   display: flex;
