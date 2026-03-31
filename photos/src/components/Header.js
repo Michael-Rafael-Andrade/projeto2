@@ -1,11 +1,13 @@
 import Navigation from './Navigation';
+import Form from './Form';
 
-function Header({handleSubmit}){
+function Header({ handleSubmit }) {
 
-    return(
+    return (
         <header>
             <h1>Photos</h1>
-            <Navigation/>
+            <Form handleSubmit={handleSubmit}/>
+            <Navigation />
         </header>
     );
 }
