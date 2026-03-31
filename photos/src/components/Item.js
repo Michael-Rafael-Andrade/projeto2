@@ -1,10 +1,12 @@
+import Container from "./Container.js";
 
 function Item({searchTerm}){
 
     return(
         <div>
             <h2>{searchTerm} Photos</h2>
-            <p>Container</p>
+            <Container searchTerm={searchTerm}/>
+            {/* <p>Container</p> */}
         </div>
     );
 }
