@@ -5,6 +5,9 @@ function Form(handleSubmit){
 
     function updateSearchInput(e){
         setSearchEntry(e.target.value);
+        // Tratar erro do usuário de entrada como digitação de ponto ou virgula ou caracteres.
+        
+    
     }
 
     return(
