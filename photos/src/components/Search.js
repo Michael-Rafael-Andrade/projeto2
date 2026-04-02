@@ -1,9 +1,11 @@
+import Container from "./Container";
+
 
 function Search({searchTerm}){
 
     return(
         <div>
-            <h2>{searchTerm}</h2>
+            <h2>{searchTerm} Photo</h2>
             <Container searchTerm={searchTerm} />
         </div>
     );

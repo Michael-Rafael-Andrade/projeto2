@@ -1,6 +1,6 @@
 import { useState } from "react";
 
-function Form(handleSubmit){
+function Form({handleSubmit}){
     const [searchEntry, setSearchEntry] = useState("");
 
     function updateSearchInput(e){

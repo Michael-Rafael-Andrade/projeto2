@@ -17,7 +17,8 @@ function Gallery({data}){
                             return <Image url={url} key={id} alt={title}></Image>
                         })}
                     </ul>
-                ) : (<h2>No Images Found</h2>)
+                )
+                : (<h2>No Images Found</h2>)
             }
         </div>
     );
